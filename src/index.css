@@ -1,0 +1,37 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.form-input {
+  padding-top: 10px 0 10px 0;
+}
+
+.form-button {
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 0px 20px;
+}
+
+.quit-button {
+  background-color: #a42324;
+  color: white;
+}
